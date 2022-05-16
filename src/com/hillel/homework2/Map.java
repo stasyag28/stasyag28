@@ -5,10 +5,10 @@ public class Map {
 
         System.out.println("Я в Киеве");
 
-        int latitude = 50_4546600;
+        float latitude = 50.4546600F;
         System.out.println("широта - " + latitude);
 
-        int longitude = 30_5238000;
+        float longitude = 30.5238000F;
         System.out.println("долгота - " + longitude);
 
     }
