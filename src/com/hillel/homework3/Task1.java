@@ -16,9 +16,9 @@ public class Task1 {
         double v1 = (double) 4 / 3 * Math.PI * Math.pow(r1, 3);
         double v2 = (double) 4 / 3 * Math.PI * Math.pow(r2, 3);
         double v3 = (double) 4 / 3 * Math.PI * Math.pow(r3, 3);
-        double m1 = d * r1;
-        double m2 = d * r2;
-        double m3 = d * r3;
+        double m1 = d * v1;
+        double m2 = d * v2;
+        double m3 = d * v3;
         System.out.println("Вес снеговика - " + m1 + m2 + m3);
 
 
