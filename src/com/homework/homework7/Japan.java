@@ -8,7 +8,7 @@ public class Japan {
         int notLuckyNumber2 = 9;
         int i;
         for (i = 0; i <= 100; i++) {
-            if (i % 10 == notLuckyNumber1 || i % 10 == notLuckyNumber2 || (i / 10) % 10 == notLuckyNumber1 || (i / 10) % 10 == notLuckyNumber2) {
+            if (i % 10 == notLuckyNumber1 || i % 10 == notLuckyNumber2 || i / 10 == notLuckyNumber1 || i / 10== notLuckyNumber2) {
                 continue;
 
             }
