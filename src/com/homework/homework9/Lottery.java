@@ -17,7 +17,7 @@ public class Lottery {
         }
 
         System.out.println("Введи 7 цифр от 0 до 9: ");
-        int secondConsole[] = CreateAndFill(size);
+        int secondConsole[] =  createAndFill(size);
         Arrays.sort(firstRandom);
         Arrays.sort(secondConsole);
         System.out.println(Arrays.toString(firstRandom));
@@ -25,7 +25,7 @@ public class Lottery {
         compare(firstRandom, secondConsole);
 
     }
-    public static int[] CreateAndFill (int size) {
+    public static int[] createAndFill (int size) {
         int secondConsole[] = new int[size];
         for (int i = 0; i < secondConsole.length; i++) {
             secondConsole[i] = in.nextInt();
