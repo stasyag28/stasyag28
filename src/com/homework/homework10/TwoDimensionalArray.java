@@ -11,6 +11,7 @@ public class TwoDimensionalArray {
         int[][] array = createAndFillArray(sizeRow, sizeColumn);
         outputNegativeNumbers(array);
     }
+
     public static int[][] createAndFillArray(int sizeRow, int sizeColumn) {
 
         int max = 10;
@@ -23,6 +24,7 @@ public class TwoDimensionalArray {
         }
         return array;
     }
+
     public static void outputNegativeNumbers(int[][] array) {
 
         for (int i = 0; i < array.length; i++) {
