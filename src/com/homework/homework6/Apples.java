@@ -18,17 +18,11 @@ public class Apples {
         System.out.println("Количестово средних банок - " + averageJar);
         int remainder1 = DetermineRemainderDivision(remainder, averageJarApple);
         System.out.println("Количестово малньких банок - " + remainder1);
-
-
-
-
     }
 
     public static int DetermineNumberApples(int apple, int jar) {
         return apple / jar;
-
     }
-
     public static int DetermineRemainderDivision(int apple, int jar) {
         return apple % jar;
     }
